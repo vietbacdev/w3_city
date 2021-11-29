@@ -1,0 +1,43 @@
+@media (min-width: 1024px) {
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  /* content */
+
+  .content__projects-house {
+    max-width: 985px;
+  }
+  .content__house-demo {
+    width: 50%;
+  }
+
+  .header__intro-tm {
+    text-shadow: 0 0 0 1px;
+    text-shadow: 1px 0 black;
+  }
+}
+
+/* mobile */
+@media (max-width: 740px) {
+  /* intro background*/
+  .intro {
+    position: relative;
+    padding-top: 50%;
+    margin-top: 56px;
+    background: url(../img/intro/intro1.jpeg) top center / cover no-repeat;
+  }
+
+  .header__intro-box {
+    top: 46%;
+    left: 38%;
+  }
+  /* public */
+  .ds-none {
+    display: none !important;
+  }
+
+  .content__house-demo {
+    width: 100%;
+  }
+}
